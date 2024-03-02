@@ -1,5 +1,6 @@
 let btn_coin = document.querySelector('.btn_coin');
 let ochko = document.querySelector('.ochko');
+let coin_line = document.querySelector('.line');
 let mablag = document.querySelector('.mablag');
 let mablag2 = document.querySelector('.mablag2');
 let league_text = document.querySelector('.league_text');
@@ -11,6 +12,7 @@ btn_coin.addEventListener('click', () => {
    if (mablag.textContent > 0) {
       ++ochko.textContent;
       --mablag.textContent;
+      coin_line.style.width = '0%';
    }
 });
 

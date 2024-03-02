@@ -112,7 +112,7 @@ body {
     gap: 5px;
 }
 
-.earn{
+.earn {
     border-left: 1px solid #a0a4af;
     border-right: 1px solid #a0a4af;
     padding: 0 20px;
@@ -125,4 +125,16 @@ body {
 
 .box p {
     font-size: 14px;
+}
+
+.line {
+    width: 90%;
+    height: 20px;
+    position: absolute;
+    border-radius: 10px;
+    transition: 100s;
+    left: 25px;
+    bottom: 23px;
+    background: rgb(110, 112, 133);
+    background: linear-gradient(87deg, rgba(110, 112, 133, 1) 60%, rgba(212, 222, 249, 1) 85%);
 }
